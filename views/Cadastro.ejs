@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.css" media="screen">
+</head>
+<body>
+    <div class="jumbotron">
+        <form action="/Cadastrar" method="POST">
+            <input type="text" placeholder="Nome" name="Nome" required><br>
+            <input type="text" placeholder="E-mail" name="Email" required><br>
+            <input type="password" placeholder="Senha" name="Senha" required><br><br>
+            <button type="submit">Cadastrar</button>
+            <div id='status' class='Erro'><%= erro %></div>
+        </form>
+    </div>
+</body>
+</html>

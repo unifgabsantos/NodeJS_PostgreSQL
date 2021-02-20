@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+.jumbotron {
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-primary {
+    margin-top: 20px;
+}
+.Erro{
+    color:red;
+}
